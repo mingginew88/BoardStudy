@@ -1,16 +1,17 @@
-package com.dean.boardstudy.board.web;
+package com.dean.boardstudy.main.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class HomeController {
+public class MainController {
 
     @RequestMapping(value = "/")
     public String test(){
 
         return "/main";
     }
+
 }
 
 
