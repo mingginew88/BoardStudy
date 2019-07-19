@@ -9,23 +9,15 @@
 
 <!DOCTYPE html>
 <head>
-    <title>Title</title>
-
-    <script>
-        function showBoardView() {
-            location.href="board/boardView";
-
-        }
-
-
-    </script>
+<title>Title</title>
+<script>
+    function showBoardView() {
+        location.href="board/boardView";
+    }
+</script>
 </head>
 <body>
-
 hello! world!
-
-
 <button onclick="showBoardView();">hello</button>
-
 </body>
 </html>

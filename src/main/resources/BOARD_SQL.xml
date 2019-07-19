@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="board">
+    <select id="showAllBoardList" resultType="boardVo">
+
+        SELECT BOARD_NO         AS "boardNo"
+             ,BOARD_TITLE      AS "boardTitle"
+             ,BOARD_WRITER     AS "boardWriter"
+             ,BOARD_CONTENTS   AS "boardContents"
+             ,BOARD_WDATE      AS "boardWDate"
+        FROM board
+
+    </select>
+</mapper>
